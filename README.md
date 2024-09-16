@@ -1,0 +1,1 @@
+<h2>Project Name</h2><br><h1>Online Book Store</h1><br>it is enterprise web application<br> this is created by using the spring boot framework<br> there is two modules inside this application which belongs to a user and a manager<br> in which manager will manage the book and user will purchase it doing transaction
