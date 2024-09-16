@@ -1,0 +1,51 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<div th:insert="/manager/top"></div>
+<body class='bgi'>
+<form action="save-card" method="post">
+<table class='tab' style='background-color:white'>
+  <tr>
+   	<td class='tatd'>Enter card number</td>
+   	<td class='tatd'>
+	  <input class='tbb' type='text' id='card' name="card" required/>
+  	</td>
+  </tr>
+   <tr>
+   	<td class='tatd'>Enter userid</td>
+   	<td class='tatd'>
+	  <input class='tbb' type='text' id='userid' name="userid" required/>
+  	</td>
+  </tr>
+   <tr>
+   	<td class='tatd'>Enter Holder name</td>
+   	<td class='tatd'>
+	  <input class='tbb' type='text' id='holder' name="holder" required/>
+  	</td>
+  </tr>
+   <tr>
+   	<td class='tatd'>Enter month</td>
+   	<td class='tatd'>
+	  <input class='tbb' type='text' id='month' name="month" required/>
+  	</td>
+  </tr>
+   <tr>
+   	<td class='tatd'>Enter year</td>
+   	<td class='tatd'>
+	  <input class='tbb' type='text' id='year' name="year" required/>
+  	</td>
+  </tr>
+   <tr>
+   	<td class='tatd'>Enter cvv</td>
+   	<td class='tatd'>
+	  <input class='tbb' type='text' id='cvv' name="cvv" required/>
+  	</td>
+  </tr>
+  <tr>
+  	<td class='tatd' colspan="2" align="center">
+   		<button class='btr'>Save Card</button>
+   		<input type='button' value='cancel' class='btr' style='background-color:orange' onclick='history.back()'>
+    </td>
+  </tr>
+ </table>
+</form>
+</body>
+</html>
